@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+    int n;
+    cin>>n;
+    int sum=0;
+    int i=0;
+    while(i<=n){
+        if(i%2==0){
+            sum=sum+i;
+            i++;
+        }
+        else{
+            continue;
+        }
+    }
+    cout<<sum<<endl;
+    return 0;
+}
