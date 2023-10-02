@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+class Box{
+    private: 
+     int l,b,h;
+    public:
+     void setDimension(int l, int b, int h)
+     {
+         this->l=l; this->b=b; this->h=h;
+     }
+     void showdimension()
+     {
+         cout<<l<<b<<h;
+     }
+     
+};
+int main()
+{Box smallbox;
+    smallbox.setDimension(12,10,5);
+    smallbox.showdimension();
+    return 0;
+}
