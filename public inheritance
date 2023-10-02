@@ -1,0 +1,17 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+class Car{
+   private:
+    int gear;
+   public:
+    void incrementgear(){
+        if(gear>5)
+        gear++;
+    }
+};
+class Sportscar:public Car{
+    
+    \* now we can access incrementgear funcn here as well
+}
+    
