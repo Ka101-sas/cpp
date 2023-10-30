@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a=5,b=7;
+    cout<<"before swapping a:"<<a<<" and b is"<<b;
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    cout<<"after swapping a:"<<a<<" and b is"<<b;
+
+    return 0;
+}
